@@ -11,7 +11,7 @@ VQ-GAN的代码链接：https://github.com/AlexWang1900/pytorch_vq_gan_refactor
 
 下载解压后放入：/data/FFHQ_128/ *.png
 
-nanogpt代码链接：
+nanogpt代码链接：https://github.com/karpathy/nanoGPT
 
 完成标准：能成功运行training_transformer.py 训练10个EPOC以上不报错，/result 文件夹会有新生成的图片，清晰可见是人脸即可。
 
