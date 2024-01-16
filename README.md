@@ -1,6 +1,7 @@
-## Note:
-科研代码课作业 一
-1修改VQ-GAN的代码，替换其中的minigpt 为nanogpt.
+
+##科研代码课作业 一
+
+#1修改VQ-GAN的代码，替换其中的minigpt 为nanogpt.
 
 VQ-GAN的代码链接：https://github.com/AlexWang1900/pytorch_vq_gan_refactor
 
@@ -14,7 +15,7 @@ nanogpt代码链接：
 
 完成标准：能成功运行training_transformer.py 训练10个EPOC以上不报错，/result 文件夹会有新生成的图片，清晰可见是人脸即可。
 
-2修改VQ-GAN的代码，将Codebook模块替换为FSQ模块，
+#2修改VQ-GAN的代码，将Codebook模块替换为FSQ模块，
 
 FSQ模块见论文：Finite scalar quantization:VQ-VAE made simple
 
@@ -24,12 +25,12 @@ FSQ 代码：自行寻找
 
 完成标准： 能成功运行training_vqgan.py, 训练10个EPOCH 以上不报错 /result 文件夹会有新生成的图片，清晰可见是人脸即可。
 
-3在问题2完成了的基础上，做出修改，实现完整的FSQ功能的VQGAN
+#3在问题2完成了的基础上，做出修改，实现完整的FSQ功能的VQGAN
 
 完成标准：
 能成功训练带有FSQ的training_transformer.py 训练10个EPOCH 以上不报错，/result 文件夹会有新生成的图片，清晰可见是人脸即可。
 
-4提交：
+#4 提交：
 
 将最终代码压缩成.zip文件，不包含checkpoint,可以包含result文件夹
 
